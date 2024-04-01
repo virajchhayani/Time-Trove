@@ -1,0 +1,77 @@
+.newsletter {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 140px;
+    margin-bottom: 150px;
+    background: linear-gradient(263deg, #FFF 4.62%, #828282 94.61%);
+    gap: 30px;
+    overflow: hidden;
+}
+
+.newsletter h1 {
+    color: #000;
+    font-family: Junge;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.newsletter p {
+    color: #000;
+    font-family: Junge;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.newsletter div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    width: 730px;
+    height: 70px;
+    border-radius: 80px;
+    border: 1px solid #e3e3e3;
+}
+
+.newsletter input {
+    width: 500px;
+    margin-left: 30px;
+    border: none;
+    outline: none;
+    color: #616161;
+    font-family: Junge;
+    font-size: 16px;
+}
+
+.newsletter div button {
+    width: 210px;
+    height: 75px;
+    border-radius: 80px;
+    background: black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* .newsletter-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 50px;
+} */
+
+/* .newsletter-left img {
+    width: 411px;
+    height: 492px;
+    flex-shrink: 0;
+    background: url('../Assets/subscribe1.png'), lightgray 50% / cover no-repeat;
+} */
